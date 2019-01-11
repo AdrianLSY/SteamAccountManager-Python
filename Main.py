@@ -12,6 +12,10 @@ accounts = List()
 
 
 def read_json():
+    try:
+        json.loads(open('accounts.json').read())
+    except FileNotFoundError:
+        open("accounts.json", "x")
     for user in json.loads(open('accounts.json').read()):
         accounts.add_user(User(
             user['username'],
