@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7826db3-ce3d-4f5c-bbe9-94d10640f8d4" name="Default Changelist" comment="Code Cleanup, bugfixes">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="e7826db3-ce3d-4f5c-bbe9-94d10640f8d4" name="Default Changelist" comment="Code Cleanup, bugfixes" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +53,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="627">
-                <caret line="78" column="48" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+              <first_editor relative-caret-position="457">
+                <caret line="80" column="71" selection-start-line="80" selection-start-column="71" selection-end-line="80" selection-end-column="71" />
               </first_editor>
               <second_editor />
             </state>
@@ -302,7 +300,7 @@
       <workItem from="1547154512142" duration="4912000" />
       <workItem from="1547182709677" duration="11561000" />
       <workItem from="1547211597436" duration="809000" />
-      <workItem from="1547212883137" duration="1874000" />
+      <workItem from="1547212883137" duration="2020000" />
     </task>
     <task id="LOCAL-00001" summary="Code Cleanup, bugfixes">
       <created>1547194392142</created>
@@ -315,7 +313,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56416000" />
+    <option name="totallyTimeSpent" value="56562000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -408,8 +406,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="627">
-            <caret line="78" column="48" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+          <first_editor relative-caret-position="457">
+            <caret line="80" column="71" selection-start-line="80" selection-start-column="71" selection-end-line="80" selection-end-column="71" />
           </first_editor>
           <second_editor />
         </state>
