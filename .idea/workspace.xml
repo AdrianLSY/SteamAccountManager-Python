@@ -35,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1208">
-                <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+              <first_editor relative-caret-position="191">
+                <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -277,7 +277,7 @@
       <workItem from="1547124625352" duration="27056000" />
       <workItem from="1547151768640" duration="364000" />
       <workItem from="1547154512142" duration="4912000" />
-      <workItem from="1547182709677" duration="11178000" />
+      <workItem from="1547182709677" duration="11561000" />
     </task>
     <task id="LOCAL-00001" summary="Code Cleanup, bugfixes">
       <created>1547194392142</created>
@@ -290,13 +290,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53350000" />
+    <option name="totallyTimeSpent" value="53733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14712153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14712153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -310,7 +309,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32917964" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32923833" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32917964" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32917964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -360,8 +359,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1208">
-            <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <first_editor relative-caret-position="191">
+            <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>

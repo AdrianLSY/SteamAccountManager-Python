@@ -57,7 +57,7 @@ Alternatively, you can create one with [Jessecar96's SteamDesktopAuthenticator][
 
 #### Shared Secret
 I only need a valid `shared_secret` from your Account.maFile
-##### Example maFile : 
+#### Example maFile : 
 `I've inserted some random data to this maFile and it does not correspond to any steam user account`
 ```
 { "shared_secret":"Adra+1Asfd/aadd/AADadA=", "serial_number":"345346346353534535", "revocation_code":"R12121", "uri":"otpauth://totp/Steam:coolstar?secret=LR453KGGGGG44AAAA3DDDD&issuer=Steam", "server_time":1422312312, "account_name":"coolstar", "token_gid":"43243524a22224", "identity_secret":"r35DDAA432/XdddaA324aAdd/U=", "secret_1":"H+DD324aDDDaA+ADD324asaaa=", "status":1,"device_id":"android:43wsad-2dd2-faad-dga3-435s4324fD", "fully_enrolled":true, "Session":{ "SessionID":"2334sf324gfgfg33g2221", "SteamLogin":"711111111111111111%2A%324A6GFG777AAAA55545AAAAAAA111111111111", "SteamLoginSecure":"711111111111111111%2A%4JHUHGGGGGJJJ43345SAAAA111111111DDD", "WebCookie":"654648DDDDDAAAAAA213213DDDD44444FGFFFFFFFFFF", "OAuthToken":"hfgh5456j7h8h98hhhhhhh92222222h2222", "SteamID":711111111111111111 } }
