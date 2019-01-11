@@ -1,6 +1,7 @@
 [steamprofile]: https://steamcommunity.com/id/P33eR/
-[python]: https://www.python.org/downloads/
-[autoit]: https://www.autoitscript.com/site/autoit/downloads/
+[download]: https://github.com/AdrianLSY/SteamAccountManager-Python/archive/master.zip
+[python3]: https://www.python.org/downloads/
+[pyautoit]: https://github.com/jacexh/pyautoit/archive/master.zip
 [jessicar98]: https://github.com/Jessecar96/SteamDesktopAuthenticator
 
 # Steam Account Manager
@@ -11,6 +12,13 @@ Written with Python 3.7.2
 Built to easily switch between multiple steam accounts
 
 Contact me here for inquiries - [Steam Profile][steamprofile]
+
+## TL;DR
+1. [Download][download] and extract .zip
+2. Install dependencies ([Python 3][python3], [PyAutoIt][pyautoit])
+3. Run `Client.py` to manage accounts
+4. Run `Startup.py` as a startup program, remove Steam from startup program
+5. Read on for a more detailed documentation
 
 ## Read me
 
@@ -34,22 +42,16 @@ This script writes account credentials in plain-text. Encryption will be added i
 
 ## Installing
 
-##### Install the latest version of [Python 3][python] :
+##### Install the latest version of [Python 3][python3] :
 
 ```
 https://www.python.org/downloads/
 ```
 
-##### PyAutoIt is required for Steam Guard Mobile Authenticator :
+##### [PyAutoIt][pyautoit] is required for Steam Guard Mobile Authenticator :
 
 ```
 pip install -U https://github.com/jacexh/pyautoit/archive/master.zip
-```
-
-##### To install the desktop version of [AutoIt][autoit] :
-
-```
-https://www.autoitscript.com/site/autoit/downloads/
 ```
 
 ## Usage
@@ -61,7 +63,7 @@ Start the client by running `Client.py`
 
 #### Startup
 
-'Startup.py' logs into the last used account used in `Client.py`
+`Startup.py` logs into the last used account used in `Client.py`
 
 It does not remember any accounts logged-in manually
 
@@ -107,3 +109,4 @@ Paste your `shared_secret` in the promt during account creation
 ## Futute Support
 * User Interface
 * Encryption
+* Windows executable
