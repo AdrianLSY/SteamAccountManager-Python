@@ -1,21 +1,29 @@
+[steamprofile]: https://steamcommunity.com/id/P33eR/
+[python]: https://www.python.org/downloads/
+[autoit]: https://www.autoitscript.com/site/autoit/downloads/
+[jessicar98]: https://github.com/Jessecar96/SteamDesktopAuthenticator
+
 # Steam Account Manager
 
 #### Console client only, for now...
 Written with Python 3.7.2
 
-Built to easily switch between multiple steam accounts. 
+Built to easily switch between multiple steam accounts
 
-[python]: https://www.python.org/downloads/
-[autoit]: https://www.autoitscript.com/site/autoit/downloads/
-[jessicar98]: https://github.com/Jessecar96/SteamDesktopAuthenticator
+Contact me here for inquiries - [Steam Profile][steamprofile]
 
 ## Read me
 
-##### Use as a startup program
+#### Use as a management system
+Switch between multiple steam accounts without ever needing to enter account credentials
+
+This script will automatically enter a username, password and Steam Guard code
+
+#### Use as a startup program
 The script will log-in to the last selected account on execute.  
 Use this script as an alternative startup program for Steam.exe
 
-##### Security Issue
+#### Security Issue
 This script writes account credentials in plain-text. Encryption will be added in future builds
 
 ## Requirements
@@ -44,6 +52,34 @@ pip install -U https://github.com/jacexh/pyautoit/archive/master.zip
 https://www.autoitscript.com/site/autoit/downloads/
 ```
 
+## Usage
+
+#### Main Client
+`Client.py` handles all user inputs and commands
+
+Start the client by running `Client.py`
+
+#### Startup
+
+'Startup.py' logs into the last used account used in `Client.py`
+
+It does not remember any accounts logged-in manually
+
+##### Setup
+Create a shortcut of `Startup.py` and place it in
+
+```
+C:\Users\{YOUR-USERNAME}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+```
+
+You can quickly access this directory via `Win + R` and typing `shell:startup`
+
+Remove Steam from your startup by opening your main Steam window :
+
+`Settings -> Interface -> uncheck 'Run Steam when my computer starts'`
+
+The startup script should automatically log-in to the last account used
+
 ## Steam Guard Mobile Authenticator
 #### This script can automatically generate a mobile auth code
 You can optionally add your Steam Guard Mobile Authenticator to the script
@@ -71,6 +107,3 @@ Paste your `shared_secret` in the promt during account creation
 ## Futute Support
 * User Interface
 * Encryption
-
-
-
