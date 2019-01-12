@@ -36,6 +36,7 @@ Use this script as an alternative startup program for Steam.exe
 ##### Supported only on Windows, No support for Linux / MacOS
 - `Python 3`
 - `PyAutoit`
+- `cryptography`
 
 
 ## Installing
@@ -110,6 +111,6 @@ Adra+1Asfd/aadd/AADadA=
 Paste your `shared_secret` in the promt during account creation
 
 ## Futute Support
-* User Interface
-* Master Password
-* Windows executable
+- User Interface
+- Master Password
+- Windows executable
