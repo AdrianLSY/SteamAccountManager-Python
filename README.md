@@ -32,9 +32,6 @@ This script will automatically enter a username, password and Steam Guard code
 The script will log-in to the last selected account on execute.  
 Use this script as an alternative startup program for Steam.exe
 
-#### Security Issue
-This script writes account credentials in plain-text. Encryption will be added in future builds
-
 ## Requirements
 ##### Supported only on Windows, No support for Linux / MacOS
 - `Python 3`
@@ -114,5 +111,5 @@ Paste your `shared_secret` in the promt during account creation
 
 ## Futute Support
 * User Interface
-* Encryption
+* Master Password
 * Windows executable
