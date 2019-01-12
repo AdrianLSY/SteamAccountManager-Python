@@ -114,5 +114,5 @@ Paste your `shared_secret` in the promt during account creation
 
 ## Futute Support
 * User Interface
-* Encryption
+* Master Password
 * Windows executable
