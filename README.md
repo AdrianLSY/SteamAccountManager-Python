@@ -2,6 +2,7 @@
 [download]: https://github.com/AdrianLSY/SteamAccountManager-Python/archive/master.zip
 [python3]: https://www.python.org/downloads/
 [pyautoit]: https://github.com/jacexh/pyautoit/archive/master.zip
+[cryptography]: https://github.com/pyca/cryptography/
 [jessicar98]: https://github.com/Jessecar96/SteamDesktopAuthenticator
 
 # Steam Account Manager
@@ -15,7 +16,7 @@ Contact me here for inquiries - [Steam Profile][steamprofile]
 
 ## TL;DR
 1. [Download][download] and extract .zip
-2. Install dependencies ([Python 3][python3], [PyAutoIt][pyautoit])
+2. Install dependencies ([Python 3][python3], [PyAutoIt][pyautoit], [cryptography][cryptography])
 3. Run `Client.py` to manage accounts
 4. Run `Startup.py` as a startup program, remove Steam from startup program
 5. Read on for a more detailed documentation
@@ -52,6 +53,11 @@ https://www.python.org/downloads/
 
 ```
 pip install -U https://github.com/jacexh/pyautoit/archive/master.zip
+```
+
+##### [cryptography][cryptography] to encrypt user data:
+```
+pip install cryptography
 ```
 
 ## Usage
