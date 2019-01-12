@@ -103,5 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# accounts json
-accounts.json
+# generated files
+accounts.dat
+salt.dat

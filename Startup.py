@@ -1,9 +1,8 @@
-from Main import read_json, use_last_used
+from Main import obtain_keys, use_last_used
 
 
-def main():
-    read_json()
-    use_last_used()
+def main(data):
+    use_last_used(data[0], data[1])
 
 
-main()
+main(obtain_keys())
